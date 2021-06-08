@@ -27,12 +27,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: mirror-sigma.vercel.app
-  proxy: www.google.com
+  self: mirror-google-cn.vercel.app
+  proxy: www.startpage.com
 
 replaced_urls:
   - old: www.google.com
-    new: mirror-sigma.vercel.app
+    new: mirror-google-cn.vercel.app
 
 header_token_key: X-AUTH-TOKEN
 `
