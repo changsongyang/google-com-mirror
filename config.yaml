@@ -3,10 +3,10 @@ handle_cookie: True
 
 host:
   self: mirror-google-cn.vercel.app
-  proxy: s2-us2.startpage.com
+  proxy: www.startpage.com
 
 replaced_urls:
   - old: www.startpage.com
-    new: s2-us2.startpage.com
-  - old: s2-us2.startpage.com
+    new: www.startpage.com
+  - old: www.startpage.com
     new: mirror-google-cn.vercel.app
